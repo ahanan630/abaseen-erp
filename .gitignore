@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Database files (IMPORTANT: Don't push database to GitHub)
+data/business.db
+data/backups/
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+temp/
+reset_database.py

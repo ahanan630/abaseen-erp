@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Documentation (not needed in container)
+*.md
+!README.md
+
+# Build artifacts
+*.spec
+
+# Temporary files
+*.tmp
+temp/
+reset_database.py
+
+# Database (will be in mounted volume)
+data/
+
+# Batch files (Windows-specific)
+*.bat
+
+# Shell scripts (not needed in container)
+*.sh
