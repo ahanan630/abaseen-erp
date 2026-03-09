@@ -4555,7 +4555,7 @@ def show_sales():
                     time.sleep(1)
                     st.rerun()
     
-    with tab3:
+    with tab4:
         show_manage_invoices_section()
 
 def show_purchases():
@@ -7596,4 +7596,5 @@ def show_backup():
 if __name__ == "__main__":
     bootstrap_company_registry()
     main()
+
 
